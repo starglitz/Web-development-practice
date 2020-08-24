@@ -1,0 +1,97 @@
+h1 {
+  margin-top: 20px;
+  margin-bottom:0;
+  color: #206a5d;
+   /* 100% = 16px */
+   font-size:5rem;
+}
+
+
+body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
+  /* font-family: verdana,sans-serif;
+  font-family: 'Alata', sans-serif; */
+  font-family: 'Cabin Sketch', cursive;
+
+  /* if element is inside of a div, centering it:
+  margin: 0 auto 0 auto; */
+
+}
+p {
+  font-family: 'Alata', sans-serif;
+  color: #206a5d;
+
+}
+
+.welcome {
+  font-size: 2.5rem;
+  margin-top:10px;
+}
+/* img {
+  margin: 0 auto 0 auto;
+} */
+
+/* div {
+  background-color: skyblue;
+} */
+
+.bottombox {
+  background-color: #fcba03;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+.middle-container {
+  background-color: #f6f578;
+}
+
+/* span {
+  font-style: italic;
+} */
+
+
+.top-container {
+  background-color: #f6d743;
+  /* background-color: #ccebb9; */
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 50px;
+}
+
+.me {
+  margin-top: 20px;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #ebac00;
+}
+
+
+.bottom-container {
+  background-color: #649d66;
+}
+
+.bottom {
+  margin:0;
+}
+.web {
+  margin: 20px 30px;
+}
