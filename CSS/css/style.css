@@ -16,10 +16,13 @@ body {
   font-family: 'Alata', sans-serif; */
   font-family: 'Cabin Sketch', cursive;
 
+
   /* if element is inside of a div, centering it:
   margin: 0 auto 0 auto; */
 
 }
+
+
 p {
   font-family: 'Alata', sans-serif;
   color: #206a5d;
@@ -42,12 +45,14 @@ p {
   background-color: #fcba03;
   width: 200px;
   height: 200px;
+  text-align: left;
 }
 
 
 
 .middle-container {
   background-color: #f6f578;
+
 }
 
 /* span {
@@ -87,11 +92,89 @@ p {
 
 .bottom-container {
   background-color: #649d66;
+  margin: 0;
+  padding-top: 20px;
+
+
 }
 
 .bottom {
-  margin:0;
+  margin-top:20px;
 }
 .web {
   margin: 20px 30px;
+  width: 25%;
+  float: left;
+}
+
+.skill-row {
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2;
+
+}
+
+.lightbulb {
+  width: 25%;
+  float: right;
+}
+
+.long {
+  margin-left: 15px;
+}
+
+.h {
+  margin-left: 2%;
+  text-align:left;
+}
+
+.skills {
+  text-align: left;
+}
+
+.about-me {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.skill-heading {
+  margin-top:40px;
+}
+
+p {
+  font-size:1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+.p {
+  margin-bottom: 100px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.btn {
+  width: 140px;
+  height:60px;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: #ebac00;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #649d66;
+  cursor: pointer;
+  font-family: 'Alata', sans-serif;
+}
+
+a {
+  font-size: 20px;
+  font-family: 'Alata', sans-serif;
+  /* margin-left: 20px; */
+  margin-right:20px;
+  padding-bottom:10px;
 }
