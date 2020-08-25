@@ -8,9 +8,7 @@ h1 {
 
 
 body {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+  margin: 0;
   text-align: center;
   /* font-family: verdana,sans-serif;
   font-family: 'Alata', sans-serif; */
@@ -94,6 +92,7 @@ p {
   background-color: #649d66;
   margin: 0;
   padding-top: 20px;
+  padding-bottom: 16px;
 
 
 }
