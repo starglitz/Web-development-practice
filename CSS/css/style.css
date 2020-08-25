@@ -99,6 +99,7 @@ p {
 
 .bottom {
   margin-top:20px;
+  margin-bottom: 0;
 }
 .web {
   margin: 20px 30px;
