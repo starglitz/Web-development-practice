@@ -10,6 +10,15 @@
   line-height: 1.5;
 
 }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* navbar section  */
 .container-fluid {
   padding: 3% 15%;
 }
@@ -37,6 +46,8 @@
 .download-button {
   margin: 5% 3%;
 }
+
+/* features section */
 
 .description {
   font-family: 'Fredoka One', cursive;
@@ -83,4 +94,57 @@
 
 .fa-check-circle:hover {
   color: #ff4c68;
+}
+
+/* testimonials section */
+#testimonials {
+  /* padding: 5% 15%; */
+  text-align: center;
+  background-color: #ef8172;
+   color: #fff; /* ovo menja boju TEKSTA - sadrzaja!!!!*/
+}
+
+.testimonial-image {
+  width: 10%; /*od ukupne sirine diva*/
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/* pricing section  */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.sign-up {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* .card {
+  padding: 40px;
+} */
+/*
+.row {
+  padding: 70px;
+} */
+
+.pricing-column {
+  padding: 3% 2%;
 }
