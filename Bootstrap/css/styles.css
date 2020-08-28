@@ -37,3 +37,50 @@
 .download-button {
   margin: 5% 3%;
 }
+
+.description {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5rem;
+
+}
+
+.par {
+  color: #8f8f8f;
+  text-align: center;
+  margin: 0 10%;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.red {
+  color: #ef8172;
+  /* font-size: 4rem; */
+  margin: 1.5rem auto;
+  display: inline-block;
+  text-align: center;
+}
+
+#desc-row {
+  margin: 5% 15%;
+  text-align: center;
+}
+
+.small-div {
+  /* display: inline-block; */
+  padding: 10px 15px;
+  margin: 0 auto;
+
+}
+
+.fa-heart:hover {
+    color: #ff4c68;
+}
+
+.fa-bullseye:hover {
+  color: #ff4c68;
+}
+
+
+.fa-check-circle:hover {
+  color: #ff4c68;
+}

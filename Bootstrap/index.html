@@ -33,47 +33,47 @@
     <div class="container-fluid">
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="#">tindog</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">tindog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href=""> Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=""> Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href=""> Download</a>
-          </li>
-        </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href=""> Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""> Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=""> Download</a>
+            </li>
+          </ul>
 
-      </div>
-    </nav>
-
-
-
-    <!-- Title -->
-
-    <div class="row">
-
-      <div class="col-lg-6">
-        <h1 id="heading">Meet new and interesting dogs nearby.</h1>
-        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
-        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
-      </div>
+        </div>
+      </nav>
 
 
-      <div class="col-lg-6">
-        <img src="images/iphone6.png" alt="iphone-mockup" style="transform:rotate(20deg); height:auto; width:60%;">
+
+      <!-- Title -->
+
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1 id="heading">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+
+
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" alt="iphone-mockup" style="transform:rotate(20deg); height:auto; width:60%;">
+        </div>
       </div>
     </div>
-</div>
 
   </section>
 
@@ -81,16 +81,30 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="row" id="desc-row">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+ <!-- col-lg-4: zelim da podelim divs tako da svaki od njih zauzima po trecinu ekrana,
+by default ekran je podeljen na 12 kolona, posto zelim trecinu to je 12/3=4 i posto treba da je laptop sized, uzimam lg(large) -->
+      <div class="small-div col-lg-4">
+      <i class="fas fa-check-circle red fa-4x"></i>
+      <h3 class="description">Easy to use.</h3>
+      <p class="par">So easy to use, even your dog could do it.</p>
+    </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+    <div class="small-div col-lg-4">
+      <i class="fas fa-bullseye red fa-4x"></i>
+      <h3 class="description">Elite Clientele</h3>
+      <p class="par">We have all the dogs, the greatest dogs.</p>
+    </div>
 
+    <div class="small-div col-lg-4">
+    <i class="fas fa-heart red fa-4x"></i>
+    <h3 class="description">Guaranteed to work.</h3>
+    <p class="par">Find the love of your dog's life or your money back.</p>
+    </div>
+
+    </div>
   </section>
 
 
