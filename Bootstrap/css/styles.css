@@ -1,26 +1,47 @@
-#title {
-  background-color: #ff4c68;
-  color: white;
-
+body {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
-#heading {
+h1, h2, h3 {
   font-family: 'Fredoka One', cursive;
+}
+
+
+/*headings*/
+.big-heading {
   font-size: 3.5rem;
   line-height: 1.5;
 
 }
-
-h2 {
-  font-family: 'Roboto', sans-serif;
-
+.section-heading {
   font-size: 2.5rem;
   line-height: 1.5;
 }
 
+/* sections */
+
+.colored-section {
+    color: #fff;
+    background-color: #ff4c68;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
 /* navbar section  */
-.container-fluid {
-  padding: 3% 15%;
+.container-fluid{
+  padding: 7% 15%;
+}
+
+#title {
+  text-align: left;
+  padding-bottom: 3%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -50,14 +71,27 @@ h2 {
 /* features section */
 
 .description {
-  font-family: 'Fredoka One', cursive;
   font-size: 1.5rem;
 
 }
 
+#features {
+  position: relative;
+  z-index: 1;
+  padding-top: 2%;
+
+
+}
+
+.abs-picture {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
 .par {
   color: #8f8f8f;
-  text-align: center;
   margin: 0 10%;
   font-family: 'Ubuntu', sans-serif;
 
@@ -68,7 +102,6 @@ h2 {
   /* font-size: 4rem; */
   margin: 1.5rem auto;
   display: inline-block;
-  text-align: center;
 }
 
 #desc-row {
@@ -77,8 +110,7 @@ h2 {
 }
 
 .small-div {
-  /* display: inline-block; */
-  padding: 10px 15px;
+  padding: 4.5%;
   margin: 0 auto;
 
 }
@@ -98,10 +130,9 @@ h2 {
 
 /* testimonials section */
 #testimonials {
-  /* padding: 5% 15%; */
-  text-align: center;
   background-color: #ef8172;
    color: #fff; /* ovo menja boju TEKSTA - sadrzaja!!!!*/
+   margin: 0;
 }
 
 .testimonial-image {
@@ -110,9 +141,13 @@ h2 {
   margin: 20px;
 }
 
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -128,23 +163,54 @@ h2 {
 /* pricing section  */
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .sign-up {
   width: 70%;
-  text-align: center;
   margin: 0 auto;
 }
 
-/* .card {
-  padding: 40px;
-} */
-/*
-.row {
-  padding: 70px;
-} */
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.dog-breed {
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+  .abs-picture {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta {
+  padding: 5% 20%;
+  font-family: 'Fredoka One', cursive;
+}
+
+#footer {
+  padding-top: 5%;
+  padding-bottom: 2%;
+
+}
+
+#copyright {
+  font-family: 'Ubuntu';
+  color: #8f8f8f;
+}
+
+.icon-end {
+  padding: 1% 1%;
 }
